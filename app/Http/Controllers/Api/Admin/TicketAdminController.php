@@ -28,7 +28,6 @@ class TicketAdminController extends Controller
         ]);
     }
 
-
     public function updateStatus(Request $request, $id)
     {
         // Admin check
